@@ -47,7 +47,7 @@ const MainScreen = ({ closestHoliday, loading }) => {
           and on <span>{formattedDate}</span>
         </h4>
         <h5 className='h5 fw-light'>
-          will be a {dayName}, {isWeekend ? "unfortunately" : "luckily"} a{' '}
+          will be a {dayName}, {isWeekend ? "sadly" : "luckily"} a{' '}
           <span>{isWeekend ? "weekend :(" : "weekday :)"}</span>
         </h5>
       </div>
