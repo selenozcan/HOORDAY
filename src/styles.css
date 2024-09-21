@@ -1,0 +1,51 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(./assets/imgs/img-background1.jpg) no-repeat;
+    background-size:cover; 
+    background-color: rgb(0, 146, 187);
+    color: white;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    width: auto;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 95%;
+    width: 100% ;
+} 
+
+.colorized {
+    color: rgb(40, 67, 90);
+}
+
+.more-colorized {
+    color: rgb(238, 233, 231);
+}
+
+.blur {
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+}
+
+.change-country-div {
+    width: 100%;
+    box-shadow: 0px -5px 20px 10px rgba(0, 0, 0, 0.05);
+    background: rgba(202, 168, 155, 0.911);
+    flex: 0 0 5%;
+
+}
+
+.change-country-dropdown {
+    margin: 5px;
+    max-width: 40px !important;
+}
